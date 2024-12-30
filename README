@@ -1,0 +1,52 @@
+PeneLoPe
+========
+
+For more information about this SAT solver, you may consult the following paper:
+Gilles Audemard, Benoît Hoessen, Said Jabbour, Jean-Marie Lagniez, Cédric Piette, « Revisiting Clause Exchange in Parallel SAT Solving », in Fifteenth International Conference on Theory and Applications of Satisfiability Testing (SAT'12), june 2012.
+
+
+Content
+-------
+ - configuration.ini the file containing the different parameters for PeneLoPe
+ - Doxyfile          file used to generate the documentation of PeneLoPe
+ - Makefile          makefile used to build PeneLoPe (make help to see more information about it)
+ - src/              the sources of PeneLoPe
+ - include/          the public headers of PeneLoPe if you plan to use PeneLoPe as a library
+ - test/             the directory containing some test for penelope
+
+History
+-------
+PeneLoPe (Gilles Audemard, Benoît Hoessen, Said Jabbour, Jean-Marie Lagniez, Cédric Piette)
+
+    ^
+    |
+
+ManySat2.0 (Youssef Hamadi, Saïd Jabbour, Lakhdar Sais)
+
+    ^
+    |
+
+Minisat2 (Niklas Eén, Niklas Sörensson)
+
+
+Build
+-----
+
+To build the solver, you may use:
+make penelope
+
+the corresponding binary will be produced in the directory dist/Release
+
+Usage
+-----
+
+You can use penelope directly using the binary, (for more information: use the --help option) 
+
+./dist/Release/penelope FILE.CNF
+
+
+
+Funny note
+----------
+Did you see the evolution of the #authors for the different solvers? Fib(3), Fib(4), Fib(5)
+
